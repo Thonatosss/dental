@@ -1,0 +1,32 @@
+.services-section {
+    padding-top: 90px;
+}
+
+.services-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.services-info {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.services-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+.services-item:not(:last-child){
+    margin-bottom: 15px;
+}
+.services-item-title{
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.services-item-info{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.3px;
+}

@@ -1,0 +1,23 @@
+.photo-section{
+    padding-top: 90px;
+}
+.photo-title{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.thumb-photo{
+    height: 135px;
+    width: 135px;
+}
+.thumb-description{
+    font-size: 12px;
+}
+.thumb-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thumb-item:not(:last-child){
+    margin-bottom: 30px;
+}
