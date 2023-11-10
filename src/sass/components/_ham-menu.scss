@@ -111,5 +111,8 @@ body.menu-open {
     background-color: white;
     position: fixed;
     top: 0;
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
     
 }
