@@ -6,11 +6,17 @@
 .consult-title {
     font-size: 28px;
     margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
 }
 
 .consult-info {
     font-size: 12px;
     margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 .form {
@@ -21,11 +27,17 @@
     align-items: center;
     flex-direction: column;
     padding: 30px;
+    @media screen and (min-width: 768px) {
+        padding: 40px;
+    }
     
 
 .form-title {
     color: $white-text-color;
     margin: 12px 0 12px 0;
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+    }
 }
 
 .form-info {

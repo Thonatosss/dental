@@ -4,6 +4,10 @@
 .photo-title{
     font-size: 28px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
 }
 .thumb-photo{
     height: 135px;
@@ -11,6 +15,9 @@
 }
 .thumb-description{
     font-size: 12px;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
 }
 .thumb-container{
     display: flex;

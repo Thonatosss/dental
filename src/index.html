@@ -291,38 +291,39 @@
     <form class="form">
       <h1 class="form-title">Записатися</h1>
       <p class="form-info">Заповніть форму - ми зателефонуємо вам і запишемо на перший прийом, який проведемо вдвічі дешевше</p>
-      <div>
+      
         <label for="name" class="form-label">Вас звати:</label>
         <input type="text" id="name" name="name" class="form-input">
-      </div>
-      <div>
+      
+      
         <label for="phone" class="form-label">Ваш номер телефону:</label>
         <input type="tel" id="phone" name="phone" class="form-input">
-      </div>
+      
       <button type="submit" class="form-button">Надіслати</button>
     </form>
   </section>
   <section class="contacts-section" id="contacts">
+    
     <div class="container">
+      <h3 class="contacts-title">
+        Контакти
+      </h3>
       <ul class="contacts-list">
         <li class="contacts-item">
           <div class="contacts-card">
-            <svg width="30" height="50" class="contacts-item-icon">
-              <use href="#"></use>
-            </svg>
-            <a href="tel:+380373625" class="contacts-phone">+380373625</a>
-            <a href="mailto:examplemail.com" class="contacts-email">mailto:examplemail.com</a>
+            <img src="./images/phone.svg" alt="" class="contacts-item-icon">
+            <a href="tel:+380373625" class="contacts-info">+380373625</a>
+            <a href="mailto:examplemail.com" class="contacts-info">examplemail.com</a>
           </div>
         </li>
         <li class="contacts-item">
           <div class="contacts-card">
-            <svg width="30" height="50" class="contacts-item-icon">
-              <use href="#"></use>
+            <img src="./images/location.svg" alt="" class="contacts-location-icon">
               <p class="contacts-info">
                 м. Дніпро, вул. Лізи Чайкіної, 1
               </p>
               <a href="https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%D0%BD%D0%BE-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%B8%D0%B9+%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81+%D0%BF%D0%B8%D0%B2%D0%BD%D0%BE%D1%97+%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97+-+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D0%B0%D1%80%D0%BD%D1%8F/@49.846829,23.9818448,13.75z/data=!4m18!1m11!4m10!1m3!2m2!1d23.9678579!2d49.8606367!1m5!1m1!2s49.837230,+24.035886!2m2!1d24.035886!2d49.83723!3m5!1s0x473add9fe362a8ab:0x234e560980b647cb!8m2!3d49.8475676!4d24.0156405!16s%2Fg%2F11jgf7zs3?hl=uk-UK&entry=ttu"
-                class="contacts-location">
+                class="contacts-location contacts-mg">
                 на Картах Google
               </a>
             </svg>
@@ -331,10 +332,9 @@
         </li>
         <li class="contacts-item">
           <div class="contacts-card">
-            <svg width="30" height="50" class="contacts-item-icon">
-              <use href="#"></use>
+            <img src="./images/schedule.svg" alt="" class="contacts-schedule-icon">
               <p class="contacts-info">
-                Пн-Нд: 9–19
+                Пн-Нд: 9–19 <br>
                 Під час війни можливі зміни
               </p>
             </svg>
@@ -343,20 +343,20 @@
         </li>
         <li class="contacts-item">
           <div class="contacts-card">
-            <svg width="30" height="50" class="contacts-item-icon">
-              <use href="#"></use>
-            </svg>
-            <a href="https://www.facebook.com/" class="contacts-media-link">https://www.facebook.com/</a>
-            <a href="https://www.instagram.com/" class="contacts-media-link">https://www.instagram.com/</a>
+            <img src="./images/media.svg" alt="" class="contacts-media-icon">
+            <a href="https://www.facebook.com/" class="contacts-media-link contacts-info">facebook.com/</a>
+            <a href="https://www.instagram.com/" class="contacts-media-link contacts-info">instagram.com/</a>
           </div>
         </li>
       </ul>
-      <!-- <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.68481627948!2d23.929835003640637!3d49.83265984422011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1699545314230!5m2!1suk!2sua"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
     </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.68481627948!2d23.929835003640637!3d49.83265984422011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1699545314230!5m2!1suk!2sua"
+      width="100%" height="385" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 </body>
+<script src="./js/scroll-lock.js" type="module"></script>
+<script src="./js/smooth-scroll.js" type="module"></script>
 
 </html>

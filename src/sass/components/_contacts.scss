@@ -1,0 +1,49 @@
+.contacts-section{
+    padding-top: 90px;
+    
+
+}
+.contacts-title{
+    font-size: 28px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+}
+.contacts-info{
+    font-size: 14px;
+    color: $text-color;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+.contacts-info:last-child{
+    margin-bottom: 30px;
+
+}
+.contacts-item-icon,
+.contacts-location-icon,
+.contacts-schedule-icon,
+.contacts-media-icon{
+    margin-bottom: 25px;
+}
+.contacts-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts-info,
+.contacts-location{
+    font-size: 13px;
+    color: $text-color;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+.contacts-mg{
+    margin-bottom: 30px;
+
+}

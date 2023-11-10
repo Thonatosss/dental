@@ -4,6 +4,9 @@
 .proposals-title{
     margin-bottom: 30px;
     font-weight: 800;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
 }
 .proposal-info{
     margin-bottom: 30px;
@@ -20,7 +23,13 @@
 .proposal-item-title{
     font-size: 20px;
     margin-bottom: 15px;
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+    }
 }
 .proposal-item-info{
     font-size: 14px;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
 }
