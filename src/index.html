@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -83,7 +84,7 @@
         </div>
       </div>
     </header>
-    <section class="hero-section">
+    <section class="hero-section" data-aos="fade-up">
       <div class="container hero-flex-container">
         <div class="hero-info-container">
           <h1 class="hero-title">
@@ -104,7 +105,7 @@
         </div>
       </div>
     </section>
-    <section class="proposals-section" id="proposal">
+    <section class="proposals-section" data-aos="fade-down" id="proposal">
       <div class="container">
         <h2 class="proposals-title">Пропозиції вересня 2023</h2>
         <p class="proposal-info">
@@ -153,7 +154,7 @@
         </ul>
       </div>
     </section>
-    <section class="services-section" id="service">
+    <section class="services-section" id="service" data-aos="fade-right">
       <div class="container">
         <h3 class="services-title">Послуги та ціни, ₴</h3>
         <p class="services-info">
@@ -221,7 +222,7 @@
         </ul>
       </div>
     </section>
-    <section class="doc-section" id="doc">
+    <section class="doc-section" id="doc" data-aos="fade-up">
       <div class="container">
         <h3 class="doc-title">Лікарі</h3>
         <p class="doc-info">
@@ -237,7 +238,7 @@
         </div>
       </div>
     </section>
-    <section class="photo-section" id="photo">
+    <section class="photo-section" id="photo" data-aos="fade-right">
       <div class="container">
         <h3 class="photo-title">Фото</h3>
         <div class="thumb-container">
@@ -291,7 +292,7 @@
         </div>
       </div>
     </section>
-    <section class="consult-section" id="consult">
+    <section class="consult-section" id="consult" data-aos="fade-up">
       <div class="container">
         <h3 class="consult-title">
           Перший прийом-консультація — зі знижкою 50%
@@ -320,7 +321,7 @@
         </form>
       </div>
     </section>
-    <section class="contacts-section" id="contacts">
+    <section class="contacts-section" id="contacts" data-aos="fade-up">
       <div class="container">
         <h3 class="contacts-title">Контакти</h3>
         <ul class="contacts-list">
@@ -398,6 +399,10 @@
       ></iframe>
     </section>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="./js/scroll-lock.js" type="module"></script>
   <script src="./js/smooth-scroll.js" type="module"></script>
 </html>

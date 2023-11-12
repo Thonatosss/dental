@@ -700,6 +700,7 @@ body.menu-open {
   display: none;
   position: fixed;
   top: 0;
+  z-index: 20;
   background-color: white;
   width: 100%;
 }

@@ -12,6 +12,7 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
