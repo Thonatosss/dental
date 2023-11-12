@@ -1,49 +1,77 @@
-.contacts-section{
-    padding-top: 90px;
-    
+.contacts-section {
+  padding-top: 90px;
+}
+.contacts-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+.contacts-info {
+  font-size: 14px;
+  color: $text-color;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
 
-}
-.contacts-title{
-    font-size: 28px;
-    margin-bottom: 30px;
-    @media screen and (min-width: 768px) {
-        font-size: 32px;
-    }
-}
-.contacts-info{
-    font-size: 14px;
-    color: $text-color;
-    @media screen and (min-width: 768px) {
-        font-size: 16px;
-    }
-}
-.contacts-info:last-child{
-    margin-bottom: 30px;
-
+.contacts-info:last-child {
+  margin-bottom: 30px;
 }
 .contacts-item-icon,
 .contacts-location-icon,
 .contacts-schedule-icon,
-.contacts-media-icon{
-    margin-bottom: 25px;
+.contacts-media-icon {
+  margin-bottom: 25px;
 }
-.contacts-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.contacts-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contacts-info,
-.contacts-location{
-    font-size: 13px;
-    color: $text-color;
-    text-align: center;
-    @media screen and (min-width: 768px) {
-        font-size: 16px;
-    }
+.contacts-location {
+  font-size: 13px;
+  color: $text-color;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
-.contacts-mg{
-    margin-bottom: 30px;
+.contacts-mg {
+  margin-bottom: 30px;
+}
+.contacts-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.contacts-anim {
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-5px); /* Зсув на 5px вгору при наведенні */
+  }
+}
+.contacts-anim::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
 
+@media (hover: hover) and (pointer: fine) {
+  .contacts-anim:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }

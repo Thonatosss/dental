@@ -663,8 +663,45 @@ body.menu-open {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .contacts-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.contacts-anim {
+  transition: transform 0.3s ease-in-out;
+}
+.contacts-anim:hover {
+  transform: translateY(-5px); /* Зсув на 5px вгору при наведенні */
+}
+
+.contacts-anim::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .contacts-anim:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
 .page-header {
   display: none;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .page-header {
@@ -682,6 +719,16 @@ body.menu-open {
   color: black;
   font-size: 14px;
   font-weight: 800;
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+}
+
+.navigation-item {
+  transition: transform 0.3s ease-in-out;
+}
+.navigation-item:hover {
+  transform: translateY(-5px); /* Зсув на 5px вгору при наведенні */
 }
 
 .center-header {
@@ -695,6 +742,8 @@ body.menu-open {
   background-color: #023436;
   border-radius: 20px;
   color: white;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .navigation-contacts {
@@ -718,57 +767,4 @@ body.menu-open {
 
 .nav-phone {
   color: black;
-}
-
-.btn {
-  padding: 8px 20px;
-  border-radius: 0;
-  overflow: hidden;
-}
-.btn::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(120deg, transparent, var(--primary-color), transparent);
-  transform: translateX(-100%);
-  transition: 0.6s;
-}
-.btn:hover {
-  background: transparent;
-  box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
-}
-.btn:hover::before {
-  transform: translateX(100%);
-}
-
-.form-input-material {
-  --input-default-border-color: white;
-  --input-border-bottom-color: white;
-}
-.form-input-material input {
-  color: white;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 40px;
-  color: white;
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109), 0 1px 1px rgba(128, 128, 128, 0.155), 0 2.1px 2.1px rgba(128, 128, 128, 0.195), 0 4.4px 4.4px rgba(128, 128, 128, 0.241), 0 12px 12px rgba(128, 128, 128, 0.35);
-}
-.login-form h1 {
-  margin: 0 0 24px 0;
-}
-.login-form .form-input-material {
-  margin: 12px 0;
-}
-.login-form .btn {
-  width: 100%;
-  margin: 18px 0 9px 0;
 }/*# sourceMappingURL=index.css.map */
