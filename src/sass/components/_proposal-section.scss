@@ -1,35 +1,48 @@
-.proposals-section{
-    padding-top: 90px;
+.proposals-section {
+  padding-top: 90px;
 }
-.proposals-title{
-    margin-bottom: 30px;
-    font-weight: 800;
-    @media screen and (min-width: 768px) {
-        font-size: 32px;
-    }
+.proposals-title {
+  margin-bottom: 30px;
+  font-weight: 800;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
 }
-.proposal-info{
-    margin-bottom: 30px;
+.proposal-info {
+  margin-bottom: 30px;
 }
-.proposal-item:not(:last-child){
-    margin-bottom: 15px;
+.proposal-item:not(:last-child) {
+  margin-bottom: 15px;
 }
-.proposal-item-container{
-    background-color: #023436;
-    border-radius: 10px;
-    padding: 30px;
-    color: $white-text-color;
+.proposals-ul {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 }
-.proposal-item-title{
-    font-size: 20px;
-    margin-bottom: 15px;
-    @media screen and (min-width: 768px) {
-        font-size: 22px;
-    }
+.proposal-item-container {
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    height: 270px;
+  }
 }
-.proposal-item-info{
-    font-size: 14px;
-    @media screen and (min-width: 768px) {
-        font-size: 16px;
-    }
+.proposal-item-container {
+  background-color: #023436;
+  border-radius: 10px;
+  padding: 30px;
+  color: $white-text-color;
+}
+.proposal-item-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+.proposal-item-info {
+  font-size: 14px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }

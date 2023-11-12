@@ -1,38 +1,42 @@
-.doc-section{
-    padding-top: 90px;
-
+.doc-section {
+  padding-top: 90px;
 }
-.doc-title{
-    font-size: 28px;
+.doc-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+.doc-info {
+  font-size: 12px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+.doc-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.doctor-photo {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.doc-title {
+  font-size: 20px;
+  margin-bottom: 4px;
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
     margin-bottom: 30px;
-    @media screen and (min-width: 768px) {
-        font-size: 32px;
-    }
-
+  }
 }
-.doc-info{
-    font-size: 12px;
-    margin-bottom: 30px;
-    @media screen and (min-width: 768px) {
-        font-size: 16px;
-    }
-}
-.doc-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.doctor-photo{
-    width: 200px;
-    height: 250px;
-    margin-bottom: 30px;
-}
-.doc-title{
-    font-size: 20px;
-    margin-bottom: 4px;
-
-}
-.doc-card-info{
-    font-size: 14px;
+.doc-card-info {
+  font-size: 14px;
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
