@@ -29,6 +29,7 @@
   transition: transform 0.3s ease-in-out;
   &:hover {
     transform: translateY(-5px); /* Зсув на 5px вгору при наведенні */
+    color: $accent-color;
   }
 }
 
@@ -45,7 +46,7 @@
 }
 .register-link {
   padding: 15px;
-  background-color: #023436;
+  background-color: $accent-color;
   border-radius: 20px;
   color: $white-text-color;
   font-size: 14px;
