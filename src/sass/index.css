@@ -573,8 +573,9 @@ body.menu-open {
 }
 
 .doctor-photo {
-  width: 200px;
-  height: 250px;
+  border-radius: 10px;
+  width: 290px;
+  height: 350px;
   margin-bottom: 30px;
 }
 
@@ -615,11 +616,12 @@ body.menu-open {
 .thumb-photo {
   height: 135px;
   width: 135px;
+  border-radius: 10px;
 }
 @media screen and (min-width: 1200px) {
   .thumb-photo {
-    height: 150px;
-    width: 100%;
+    height: 170px;
+    width: 250px;
     margin-bottom: 15px;
   }
 }
