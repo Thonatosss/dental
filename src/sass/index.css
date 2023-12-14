@@ -359,6 +359,7 @@ body.menu-open {
 
 .hero-section {
   padding-top: 75px;
+  padding-bottom: 100px;
 }
 @media screen and (min-width: 768px) {
   .hero-section {
@@ -367,21 +368,24 @@ body.menu-open {
 }
 
 .hero-title {
-  font-size: 30px;
+  color: white;
 }
 @media screen and (min-width: 768px) {
   .hero-title {
-    font-size: 48px;
+    font-size: 54px;
+    text-align: center;
   }
 }
 
 .hero-info {
-  font-size: 14px;
+  color: white;
   margin-bottom: 34px;
 }
 @media screen and (min-width: 768px) {
   .hero-info {
-    font-size: 16px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
   }
 }
 
@@ -402,6 +406,33 @@ body.menu-open {
     justify-content: center;
     align-items: center;
   }
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.hero-info-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Сірий колір з прозорістю */
+  z-index: -1;
 }
 
 .proposals-section {
