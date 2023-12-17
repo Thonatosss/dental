@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,OAAOC,SAAS,EAAG,KAGnBD,OAAOC,SAAS,CACZC,IAAK,IACLC,SAAU","sources":["src/js/smooth-scroll.js"],"sourcesContent":["window.scrollTo(0, 1000);\n\n// этот код меняет поведение прокрутки на \"smooth\"\nwindow.scrollTo({\n    top: 1000,\n    behavior: \"smooth\",\n});"],"names":["window","scrollTo","top","behavior"],"version":3,"file":"index.bee89f78.js.map"}
