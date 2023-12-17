@@ -1,1 +1,0 @@
-{"mappings":"AAAa,IAAIA,aAAa,eAAgB,CAC7CC,MAAO,IACJC,OAAQ","sources":["src/js/smooth-scroll.js"],"sourcesContent":["let scroll = new SmoothScroll('a[href*=\"#\"]', {\n\tspeed: 200,\n    easing: 'easeInOutQuad'\n});"],"names":["SmoothScroll","speed","easing"],"version":3,"file":"index.24f61b34.js.map"}
