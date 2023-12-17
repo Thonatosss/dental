@@ -642,65 +642,34 @@ body.menu-open {
 @media screen and (min-width: 768px) {
   .photo-title {
     font-size: 32px;
+    margin-bottom: 40px;
   }
 }
 
-.thumb-photo {
-  height: 135px;
-  width: 135px;
+.works-photo {
+  height: 140px;
+  width: 230px;
   border-radius: 10px;
 }
 @media screen and (min-width: 1200px) {
-  .thumb-photo {
-    height: 170px;
-    width: 250px;
+  .works-photo {
+    height: 210px;
+    width: 350px;
     margin-bottom: 15px;
   }
 }
 
-.thumb-description {
-  font-size: 12px;
-}
-@media screen and (min-width: 768px) {
-  .thumb-description {
-    font-size: 16px;
-  }
+.works-title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1199px) {
-  .thumb-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-.thumb-item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.thumb-card {
+.works-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .thumb-card {
-    height: 230px;
-    width: 260px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .thumb-list {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 20px;
-  }
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .consult-section {
