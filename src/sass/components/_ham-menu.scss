@@ -79,7 +79,7 @@ body.menu-open {
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #c8db9c;
+  background-color: #fff;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   transition-duration: 0.25s;
   @media screen and (min-width: 768px) {
@@ -97,9 +97,6 @@ body.menu-open {
   transition-duration: 0.25s;
 }
 
-.menu__item:hover {
-  background-color: #cfd8dc;
-}
 
 .mobile-ham-container {
   display: flex;
@@ -107,7 +104,8 @@ body.menu-open {
   align-items: center;
   height: 70px;
   width: 100%;
-  background-color: #c8db9c;
+  background-color: #fff;
+  
   position: fixed;
   z-index: 30;
   top: 0;

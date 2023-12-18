@@ -4,8 +4,9 @@
   top: 0;
   left: 0;
   z-index: 20;
-  background-color: #c8db9c;
+  background-color: #fff;
   width: 100%;
+
 
   @media screen and (min-width: 1200px) {
     display: block;
@@ -33,7 +34,7 @@
   transition: transform 0.3s ease-in-out;
   &:hover {
     transform: translateY(-5px); /* Зсув на 5px вгору при наведенні */
-    color: $accent-color;
+    color: #6b8e23;
   }
 }
 
