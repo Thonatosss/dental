@@ -21,9 +21,9 @@ document.getElementById('form').addEventListener('submit', function (e) {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            // window.location.href = 'thanks.html';
             this.phone.value = '';
             this.name.value = '';
+            window.location.href = 'thanks.html';
 
         })
         .catch(error => {
