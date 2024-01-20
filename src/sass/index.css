@@ -703,7 +703,7 @@ body.menu-open {
 }
 
 .insta-section {
-  z-index: 100;
+  z-index: 2;
   position: relative;
   padding-top: 70px;
 }
@@ -722,7 +722,7 @@ body.menu-open {
 .instagram-button {
   margin-top: 20px;
   display: inline-block;
-  padding: 20px 40px;
+  padding: 10px 20px;
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -733,6 +733,11 @@ body.menu-open {
   transition: transform 0.3s ease;
 }
 
+@media screen and (min-width: 1200px) {
+  .instagram-button {
+    padding: 20px 40px;
+  }
+}
 .instagram-button:hover {
   transform: translateY(-5px); /* Плавний підйом на 5 пікселів при наведенні */
 }
