@@ -7,11 +7,16 @@
 }
 .hero-title {
   color: white;
+  position: absolute;
+  bottom: 0;
+  right: 15;
+  font-size: 18px;
 
   @media screen and (min-width: 768px) {
-    font-size: 54px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
+    right: 30;
   }
 }
 .hero-info {
@@ -42,6 +47,7 @@
 .hero-section {
   position: relative;
   overflow: hidden;
+  padding-top: 250px;
 }
 
 .hero-video {

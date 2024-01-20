@@ -369,12 +369,17 @@ body.menu-open {
 
 .hero-title {
   color: white;
+  position: absolute;
+  bottom: 0;
+  right: 15;
+  font-size: 18px;
 }
 @media screen and (min-width: 768px) {
   .hero-title {
-    font-size: 54px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
+    right: 30;
   }
 }
 
@@ -412,6 +417,7 @@ body.menu-open {
 .hero-section {
   position: relative;
   overflow: hidden;
+  padding-top: 250px;
 }
 
 .hero-video {
@@ -684,6 +690,60 @@ body.menu-open {
   flex-wrap: wrap;
 }
 
+.insta-title {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  .insta-title {
+    font-size: 32px;
+  }
+}
+
+.insta-section {
+  z-index: 100;
+  position: relative;
+  padding-top: 70px;
+}
+
+@keyframes pulse {
+  0% {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  }
+  50% {
+    background: linear-gradient(45deg, #fcaf45, #ffdc80, #fd1d1d, #f77737, #f56040, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+  }
+  100% {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  }
+}
+.instagram-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-button:hover {
+  transform: translateY(-5px); /* Плавний підйом на 5 пікселів при наведенні */
+}
+
+.to-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .consult-section {
   padding-top: 90px;
 }
@@ -923,7 +983,8 @@ body.menu-open {
 
 .center-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   align-items: center;
 }
 
