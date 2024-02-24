@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DentTime</title>
-    <link rel="icon" type="image/x-icon" href="./images/dental-favikon.png" />
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="icon" type="image/x-icon" href="./src/images/dental-favikon.png" />
+    <link rel="stylesheet" href="./src/sass/index.css" />
     <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -32,7 +32,7 @@
     >
     <div class="mobile-ham-container">
       <a href="#hero" class="mobile-logo">
-        <img src="./images/logotype.png" alt="" width="100" height="80" />
+        <img src="./src/images/logotype.png" alt="" width="100" height="80" />
       </a>
       <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
@@ -57,7 +57,7 @@
         <div class="center-header">
           <div class="header-logo">
             <a href="#hero" class="logo">
-              <img src="./images/logotype.png" alt="" width="110" height="90" />
+              <img src="./src/images/logotype.png" alt="" width="110" height="90" />
             </a>
           </div>
           <nav class="navigation">
@@ -103,7 +103,7 @@
       <div class="container hero-flex-container">
         <video autoplay loop muted playsinline class="hero-video">
           <!-- Додайте шлях до вашого відео в атрибуті src -->
-          <source src="./images/header-vid.mp4" type="video/mp4" />
+          <source src="./src/images/header-vid.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div class="hero-info-container">
@@ -417,7 +417,7 @@
           <li class="contacts-item">
             <div class="contacts-card">
               <img
-                src="./images/mobile2.svg"
+                src="./src/images/mobile2.svg"
                 alt=""
                 class="contacts-item-icon"
               />
@@ -434,9 +434,11 @@
           <li class="contacts-item">
             <div class="contacts-card">
               <img
-                src="./images/locationn2.svg"
+                src="./src/images/locationN.svg"
                 alt=""
                 class="contacts-location-icon"
+                width="40"
+                height="40"
               />
               <p class="contacts-info">м. Дніпро, вулиця Робоча 172</p>
               <a
@@ -450,7 +452,7 @@
           <li class="contacts-item">
             <div class="contacts-card">
               <img
-                src="./images/timee.svg"
+                src="./src/images/timee.svg"
                 alt=""
                 class="contacts-schedule-icon"
               />
@@ -460,7 +462,7 @@
           <li class="contacts-item">
             <div class="contacts-card">
               <img
-                src="./images/share2.svg"
+                src="./src/images/share2.svg"
                 alt=""
                 class="contacts-media-icon"
               />
@@ -490,8 +492,8 @@
   <script>
     AOS.init();
   </script>
-  <script src="./js/scroll-lock.js" type="module"></script>
-  <script src="./js/ham-menu.js" type="module"></script>
+  <script src="./src/js/scroll-lock.js" type="module"></script>
+  <script src="./src/js/ham-menu.js" type="module"></script>
   \
-  <script src="./js/telegram-form.js" type="module"></script>
+  <script src="./src/js/telegram-form.js" type="module"></script>
 </html>
