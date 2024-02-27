@@ -34,6 +34,7 @@
   }
 }
 .services-item-title {
+  margin-left: 10px;
   margin-bottom: 15px;
   font-weight: 800;
   @media screen and (min-width: 768px) {
@@ -54,4 +55,8 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+}
+.services-container{
+  display: flex;
+  
 }
